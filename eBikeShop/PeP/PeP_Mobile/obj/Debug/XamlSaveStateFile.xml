@@ -1,0 +1,22 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="h:\windows\desktopweb\pep-seminarski\pep\pep\pep_mobile\obj\debug\intermediatexaml\pep_mobile.exe" HashGuid="06d7ce25-34ed-9740-2443-5b532c08b3de" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="00d789b5-4004-069c-47a3-85602f81a196" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="36f75486-c611-869d-0f3b-f77b4baca7ec" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="33adc14f-1699-89db-fb87-66d3f3fc4dfe" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\newtonsoft.json.6.0.2\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9d7edd31-e823-430e-c3cf-22078730f8bb" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\pclcrypto.2.0.147\lib\portable-win81+wpa81\pclcrypto.dll" HashGuid="7f5747d3-190f-2816-2f99-598f61e9ac14" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\pep-pcl\bin\debug\pep-pcl.dll" HashGuid="68061483-6bd1-2794-f5c6-42033834c2fb" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\pinvoke.bcrypt.0.3.2\lib\portable-net45+win+wpa81+monoandroid10+xamarinios10+monotouch10\pinvoke.bcrypt.dll" HashGuid="a7871029-9cc4-65f0-a2f8-1d587110ebf2" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\pinvoke.kernel32.0.3.2\lib\portable-net45+win+wpa81+monoandroid10+xamarinios10+monotouch10\pinvoke.kernel32.dll" HashGuid="6068377b-cf90-d698-b7c8-3327f16952c9" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\pinvoke.ncrypt.0.3.2\lib\portable-net45+win+wpa81+monoandroid10+xamarinios10+monotouch10\pinvoke.ncrypt.dll" HashGuid="a3e35b11-c9e0-4e89-4c6d-8f7f7400e60f" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\pinvoke.windows.core.0.3.2\lib\portable-net45+win+wpa81+monoandroid10+xamarinios10+monotouch10\pinvoke.windows.core.dll" HashGuid="1640fc05-bfb9-b488-84ff-26d41810cd9b" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\shim.2.0.1\lib\portable-win81+wpa81\shim.dll" HashGuid="715846f9-ecd1-032a-d9e0-2c881fd1cbe5" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.extensions.dll" HashGuid="1d9d21be-6daa-468f-1b93-4e738d786e1b" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\microsoft.aspnet.webapi.client.5.2.0\lib\portable-wp8+netcore45+net45+wp81+wpa81\system.net.http.formatting.dll" HashGuid="be2a4785-9a6a-e28d-8cef-3eb295a45d5a" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\validation.2.2.8\lib\dotnet\validation.dll" HashGuid="f7eff8c2-9a3d-f4fc-6fe4-78f849043e26" />
+    <ReferenceAssembly PathName="h:\windows\desktopweb\pep-seminarski-ib130206\pep\pep\packages\webapirestservice.webapiclient.1.1\lib\portable-net45+win+wpa81+wp80\webapirestservice.webapiclient.dll" HashGuid="61f0686c-adbf-7f03-6087-d67b60a4f166" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

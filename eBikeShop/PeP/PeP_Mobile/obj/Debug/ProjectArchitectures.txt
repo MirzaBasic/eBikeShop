@@ -1,0 +1,2 @@
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP_Mobile\PeP_Mobile.csproj;neutral
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-PCL\PeP-PCL.csproj;neutral

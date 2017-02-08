@@ -1,0 +1,114 @@
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\PeP-UI.exe.config
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP-UI.exe
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP-UI.pdb
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\PeP-UI.exe
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\PeP-UI.pdb
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\PeP-API.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Web.Http.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\EntityFramework.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\PeP-API.pdb
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Web.Http.xml
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\EntityFramework.xml
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.csprojResolveAssemblyReference.cache
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Login.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Main.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Messages.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Properties.Resources.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.csproj.GenerateResource.Cache
+C:\Users\root\documents\visual studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_Korisnici.resources
+C:\Users\root\documents\visual studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_Proizvodi.resources
+C:\Users\root\documents\visual studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_KorisniciUredi.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_ProizvodiUredi.resources
+C:\Users\root\Documents\Visual Studio 2013\Projects\PeP\PeP-UI\obj\Debug\PeP_UI.Suppliers.frm_Dobavljaci.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe.config
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.exe
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-API.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\EntityFramework.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-API.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\EntityFramework.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.csprojResolveAssemblyReference.cache
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_Proizvodi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_ProizvodiUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Suppliers.frm_Dobavljaci.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_Korisnici.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_KorisniciUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Login.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Main.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Messages.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Properties.Resources.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.csproj.GenerateResource.Cache
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Suppliers.frm_DobavljaciUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Warehouses.frm_Skladista.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Warehouses.frm_SkladistaUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Orders.frm_Narudzbe.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Inputs.frm_Ulazi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Outputs.frm_Izlazi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Reportss.frmTop10ProizvodaReport.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\RdlCompile.cache
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\RdlCompile.compiled
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Reportss.frmOscilacijeProizvodnjeReport.resources
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe.manifest
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.application
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.exe.manifest
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.application
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe.config
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.exe
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe.manifest
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.application
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.exe
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-UI.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-API.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\EntityFramework.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.dll
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\PeP-API.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\Newtonsoft.Json.xml
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Net.Http.Formatting.xml
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.xml
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\EntityFramework.xml
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\bin\Debug\System.Web.Http.WebHost.xml
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.csprojResolveAssemblyReference.cache
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Inputs.frm_Ulazi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Orders.frm_Narudzbe.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Outputs.frm_Izlazi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_Proizvodi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Products.frm_ProizvodiUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Reportss.frmOscilacijeProizvodnjeReport.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Reportss.frmTop10ProizvodaReport.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Suppliers.frm_Dobavljaci.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Suppliers.frm_DobavljaciUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_Korisnici.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Users.frm_KorisniciUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Login.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.frm_Main.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Messages.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Properties.Resources.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Warehouses.frm_Skladista.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.Warehouses.frm_SkladistaUredi.resources
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP_UI.csproj.GenerateResource.Cache
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\RdlCompile.cache
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\RdlCompile.compiled
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.exe.manifest
+H:\Windows\DesktopWeb\PEP-Seminarski-IB130206\PeP\PeP\PeP-UI\obj\Debug\PeP-UI.application

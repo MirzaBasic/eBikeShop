@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="PeP_Mobile.Users.KorisnickiProfil"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PeP_Mobile.Users"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    <StackPanel Margin="20,0,20,0">
+        <TextBlock Text="REGISTRACIJA" HorizontalAlignment="Center"  FontSize="35"></TextBlock>
+
+        <TextBox IsEnabled="False" Header="Korisničko ime" Name="korisnickoImeInput" PlaceholderText="Korisničko ime" ></TextBox>
+        <TextBox IsEnabled="False" Header="Ime"  Name="imeInput" PlaceholderText="Ime" ></TextBox>
+        <TextBox IsEnabled="False" Header="Prezime"  Name="prezimeInput" PlaceholderText="Prezime" ></TextBox>
+        <TextBox  IsEnabled="False" Header="Email"  Name="emailInput" PlaceholderText="Email" InputScope="EmailSmtpAddress"></TextBox>
+
+        <PasswordBox IsEnabled="False" Header="Lozinka"  Name="lozinkaInput" PlaceholderText="Lozinka"/>
+        <PasswordBox IsEnabled="False" Header="Lozinka ponovo"  Name="lozinkaPonovoInput" PlaceholderText="Lozinka ponovo"/>
+
+
+        <Button Name="btnOmoguciPromjenu" Content="Izmijeni"  HorizontalAlignment="Right" Click="btnOmoguciPromjenu_Click" />
+        <Grid Name="izmijeniSacuvajGrid" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+  
+
+        <Button x:Name="btnOdustani" Content="Odustani"  Grid.Column="0"  HorizontalAlignment="Left" Click="btnOdustani_Click"/>
+        <Button x:Name="btnSacuvaj" Content="Sačuvaj"  Grid.Column="1" HorizontalAlignment="Right" Click="btnSacuvaj_Click" />
+        </Grid>
+    </StackPanel>
+
+
+
+
+</Page>

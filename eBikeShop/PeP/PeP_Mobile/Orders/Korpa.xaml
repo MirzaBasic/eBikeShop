@@ -1,0 +1,88 @@
+﻿<Page
+    x:Class="PeP_Mobile.Orders.Korpa"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PeP_Mobile.Orders"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="10">
+
+        <TextBlock Text="eBike::Korpa" FontSize="30"></TextBlock>
+        <TextBlock Name="praznaKorpaTxt" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Vaša korpa je prazna!" Visibility="Collapsed" FontSize="30"></TextBlock>
+
+
+        <ListView Name="listProizvodiKorpa" IsItemClickEnabled="True" ItemClick="listProizvodiKorpa_ItemClick"   >
+      
+            <ListView.ItemTemplate>
+             
+
+                <DataTemplate>
+                    <Grid Margin="10">
+                        <Grid.Resources>
+                            <local:ImageConverter x:Key="ImageConverter"></local:ImageConverter>
+                        </Grid.Resources>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Border  Grid.Column="0" Height="100" Width="100">
+                            <Image Source="{Binding Converter={StaticResource ImageConverter}}"></Image>
+                        </Border>
+
+
+
+                        <Grid Grid.Row="0" Grid.Column="1" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Margin="2" Orientation="Horizontal" Grid.Row="0" Grid.Column="0">
+                                <TextBlock Text="Naziv: " Margin="0,0,5,0"  ></TextBlock>
+                                <TextBlock Text="{Binding Proizvodi.Naziv}" ></TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Margin="2" Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right">
+                                <TextBlock Text=" Šifra: " Margin="0,0,5,0" ></TextBlock>
+                                <TextBlock Text="{Binding Proizvodi.Sifra}" ></TextBlock>
+                            </StackPanel>
+                            <StackPanel Margin="2" Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
+                                <TextBlock Text="Cijena: " Margin="0,0,5,0" ></TextBlock>
+                                <TextBlock Text="{Binding Proizvodi.Cijena}" ></TextBlock>
+                                <TextBlock Text="KM" Margin="5,0,5,0" ></TextBlock>
+                            </StackPanel>
+                            <StackPanel Margin="2" Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right">
+                                <TextBlock Text="Količina: " Margin="0,0,5,0" ></TextBlock>
+                                <TextBlock Text="{Binding Kolicina}"></TextBlock>
+                            </StackPanel>
+
+                        </Grid>
+
+
+
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Margin="10">
+            <TextBlock Name="iznosTxt" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Left">
+            </TextBlock>
+            <Button Name="btnZakljuci" Content="Zaključi" HorizontalAlignment="Right" Click="btnZakljuci_Click"></Button>
+        </Grid>
+    </StackPanel>
+</Page>

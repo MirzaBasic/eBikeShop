@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EDA271CB-EB2B-4F89-B547-B2CC63099FF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PeP_UI</RootNamespace>
+    <AssemblyName>PeP-UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Developer\Documents\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3CF40C18CB0859EF0EFEDE5F9F8B8B42A0EAB370</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PeP_UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Inputs\frm_Ulazi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inputs\frm_Ulazi.Designer.cs">
+      <DependentUpon>frm_Ulazi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orders\frm_Narudzbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orders\frm_Narudzbe.Designer.cs">
+      <DependentUpon>frm_Narudzbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OscilacijeProdaje.cs">
+      <DependentUpon>OscilacijeProdaje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OscilacijeProdaje.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OscilacijeProdaje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Outputs\frm_Izlazi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outputs\frm_Izlazi.Designer.cs">
+      <DependentUpon>frm_Izlazi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\frm_Proizvodi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\frm_Proizvodi.Designer.cs">
+      <DependentUpon>frm_Proizvodi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\frm_ProizvodiUredi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products\frm_ProizvodiUredi.Designer.cs">
+      <DependentUpon>frm_ProizvodiUredi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportss\frmOscilacijeProizvodnjeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportss\frmOscilacijeProizvodnjeReport.Designer.cs">
+      <DependentUpon>frmOscilacijeProizvodnjeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportss\frmTop10ProizvodaReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportss\frmTop10ProizvodaReport.Designer.cs">
+      <DependentUpon>frmTop10ProizvodaReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\frm_Dobavljaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\frm_Dobavljaci.Designer.cs">
+      <DependentUpon>frm_Dobavljaci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers\frm_DobavljaciUredi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers\frm_DobavljaciUredi.Designer.cs">
+      <DependentUpon>frm_DobavljaciUredi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Top10Proizvodi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Top10Proizvodi.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frm_Korisnici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frm_Korisnici.Designer.cs">
+      <DependentUpon>frm_Korisnici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frm_KorisniciUredi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frm_KorisniciUredi.Designer.cs">
+      <DependentUpon>frm_KorisniciUredi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\UIHelper.cs" />
+    <Compile Include="Util\WebApiHelper.cs" />
+    <Compile Include="Warehouses\frm_Skladista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouses\frm_Skladista.Designer.cs">
+      <DependentUpon>frm_Skladista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouses\frm_SkladistaUredi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warehouses\frm_SkladistaUredi.Designer.cs">
+      <DependentUpon>frm_SkladistaUredi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Inputs\frm_Ulazi.resx">
+      <DependentUpon>frm_Ulazi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orders\frm_Narudzbe.resx">
+      <DependentUpon>frm_Narudzbe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Outputs\frm_Izlazi.resx">
+      <DependentUpon>frm_Izlazi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\frm_Proizvodi.resx">
+      <DependentUpon>frm_Proizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\frm_ProizvodiUredi.resx">
+      <DependentUpon>frm_ProizvodiUredi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportss\frmOscilacijeProizvodnjeReport.resx">
+      <DependentUpon>frmOscilacijeProizvodnjeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportss\frmTop10ProizvodaReport.resx">
+      <DependentUpon>frmTop10ProizvodaReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportss\rptOscilacijeProdaje.rdlc" />
+    <EmbeddedResource Include="Reportss\rptTop10Proizvoda.rdlc" />
+    <EmbeddedResource Include="Suppliers\frm_Dobavljaci.resx">
+      <DependentUpon>frm_Dobavljaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers\frm_DobavljaciUredi.resx">
+      <DependentUpon>frm_DobavljaciUredi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frm_Korisnici.resx">
+      <DependentUpon>frm_Korisnici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frm_KorisniciUredi.resx">
+      <DependentUpon>frm_KorisniciUredi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Warehouses\frm_Skladista.resx">
+      <DependentUpon>frm_Skladista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Warehouses\frm_SkladistaUredi.resx">
+      <DependentUpon>frm_SkladistaUredi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OscilacijeProdaje.xsc">
+      <DependentUpon>OscilacijeProdaje.xsd</DependentUpon>
+    </None>
+    <None Include="OscilacijeProdaje.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OscilacijeProdaje.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OscilacijeProdaje.xss">
+      <DependentUpon>OscilacijeProdaje.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PeP_UI_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Top10Proizvodi.xsc">
+      <DependentUpon>Top10Proizvodi.xsd</DependentUpon>
+    </None>
+    <None Include="Top10Proizvodi.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Top10Proizvodi.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Top10Proizvodi.xss">
+      <DependentUpon>Top10Proizvodi.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeP-API\PeP-API.csproj">
+      <Project>{6dfa120f-26d5-4c21-9283-73da8917d97e}</Project>
+      <Name>PeP-API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

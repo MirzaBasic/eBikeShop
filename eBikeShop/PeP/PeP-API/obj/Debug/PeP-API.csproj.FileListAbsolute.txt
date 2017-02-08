@@ -1,0 +1,36 @@
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\PeP-API.dll.config
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\PeP-API.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\PeP-API.pdb
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\EntityFramework.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\EntityFramework.SqlServer.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\Newtonsoft.Json.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Net.Http.Formatting.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Web.Http.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Web.Http.WebHost.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\EntityFramework.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\EntityFramework.SqlServer.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\Newtonsoft.Json.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Net.Http.Formatting.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Web.Http.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\bin\System.Web.Http.WebHost.xml
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\obj\Debug\PeP-API.dll
+c:\users\root\documents\visual studio 2013\Projects\PeP\PeP-API\obj\Debug\PeP-API.pdb
+C:\Users\root\documents\visual studio 2013\Projects\PeP\PeP-API\obj\Debug\PeP-API.csprojResolveAssemblyReference.cache
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\PeP-API.dll.config
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\PeP-API.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\PeP-API.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\EntityFramework.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\EntityFramework.SqlServer.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\Newtonsoft.Json.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Net.Http.Formatting.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Web.Http.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Web.Http.WebHost.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\EntityFramework.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\EntityFramework.SqlServer.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\Newtonsoft.Json.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Net.Http.Formatting.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Web.Http.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\bin\System.Web.Http.WebHost.xml
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\obj\Debug\PeP-API.dll
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\obj\Debug\PeP-API.pdb
+H:\Windows\DesktopWeb\PEP-Seminarski\PeP\PeP\PeP-API\obj\Debug\PeP-API.csprojResolveAssemblyReference.cache

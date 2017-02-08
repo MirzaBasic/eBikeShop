@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="PeP_Mobile.Products.Pretraga"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PeP_Mobile.Products"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+   
+        <StackPanel Margin="20">
+        <TextBlock Name="vrstaProizvodaTxt" FontSize="30"></TextBlock>
+      <TextBox Name="pretragaNazivInput" PlaceholderText="Pretraga" TextChanged="pretragaNazivInput_TextChanged" />
+       
+        <ListView Name="listProizvodiNaziv" IsItemClickEnabled="True" ItemClick="listProizvodiNaziv_ItemClick">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.Resources>
+                            <local:ImageConverter x:Key="ImageConverter"></local:ImageConverter>
+                        </Grid.Resources>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Width="100" Height="100" Grid.Column="0">
+                            <Image Source="{Binding Converter={StaticResource ImageConverter}}"></Image>
+                        </Border>
+
+                        <StackPanel Grid.Column="1" Margin="10,5,5,5" VerticalAlignment="Top">
+
+                           
+                                <TextBlock Style="{StaticResource TitleTextBlockStyle}" >
+                                <Run Text="Naziv: "></Run>
+                                <Run Text="{Binding Naziv}"></Run>
+                            </TextBlock>
+
+                 
+                            <TextBlock Style="{StaticResource TitleTextBlockStyle}" >
+                           
+                            <Run Text="Šifra: "></Run>
+                                <Run Text="{Binding Sifra}"></Run>
+                            </TextBlock>
+                            <TextBlock Style="{StaticResource TitleTextBlockStyle}" >
+                           
+                                <Run Text="Cijena: "></Run>
+                                <Run Text="{Binding Cijena}"></Run>
+                                </TextBlock>
+                              </StackPanel>
+                       
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+
+    </StackPanel>
+</Page>
